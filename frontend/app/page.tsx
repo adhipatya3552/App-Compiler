@@ -6,6 +6,7 @@ import {
   Clock, RefreshCw, Database, Cpu, Layers, Code, Copy, Check, Lock,
   Unlock, Layout, List, Terminal, ArrowRight, Play, Eye, FileJson, Info
 } from "lucide-react";
+import InteractiveBackground from "./components/InteractiveBackground";
 
 const EXAMPLE_PROMPTS = [
   "Build a CRM with login, contacts, dashboard, role-based access, and premium plan with payments. Admins can see analytics.",
@@ -25,15 +26,6 @@ export default function Home() {
   const [latency, setLatency] = useState<number | null>(null);
   const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState<TabType>("intent");
-
-  // Mouse tracking state for live interactive background
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseMove = (e: React.MouseEvent) => {
-    setMousePos({ x: e.clientX, y: e.clientY });
-    setIsHovered(true);
-  };
 
   // Terminal logs state
   const [logs, setLogs] = useState<string[]>([]);
@@ -147,24 +139,10 @@ export default function Home() {
 
   return (
     <main 
-      onMouseMove={handleMouseMove}
-      onMouseLeave={() => setIsHovered(false)}
       className="min-h-screen bg-[#08080c] bg-grid-pattern text-gray-200 relative pb-20 overflow-x-hidden selection:bg-violet-500/30"
     >
-
-      {/* Live mouse spotlight highlighting the background grid */}
-      {isHovered && (
-        <div
-          className="pointer-events-none fixed inset-0 z-0 transition-opacity duration-300"
-          style={{
-            background: `radial-gradient(600px at ${mousePos.x}px ${mousePos.y}px, rgba(139, 92, 246, 0.08), rgba(59, 130, 246, 0.03) 40%, transparent 80%)`,
-          }}
-        />
-      )}
-
-      {/* Decorative Glow Blobs */}
-      <div className="absolute top-[10%] left-[20%] w-[300px] h-[300px] rounded-full bg-violet-600/10 blur-[100px] pointer-events-none float-bg-1" />
-      <div className="absolute bottom-[20%] right-[10%] w-[400px] h-[400px] rounded-full bg-blue-600/10 blur-[120px] pointer-events-none float-bg-2" />
+      {/* Canvas-based interactive particle background */}
+      <InteractiveBackground />
 
       {/* Header */}
       <header className="border-b border-white/10 backdrop-blur-md bg-black/30 sticky top-0 z-50 px-6 py-4 flex items-center justify-between">
@@ -204,7 +182,7 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="max-w-5xl mx-auto px-6 py-10 space-y-8 animate-slide-up">
+      <div className="relative z-10 max-w-5xl mx-auto px-6 py-10 space-y-8 animate-slide-up">
 
         {/* Prompt Input Container */}
         <section className="bg-white/[0.02] border border-white/5 backdrop-blur-xl rounded-2xl p-6 space-y-6 glow-border">
