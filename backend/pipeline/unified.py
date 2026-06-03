@@ -113,6 +113,7 @@ def run(user_prompt: str) -> tuple[IntentOutput, SystemDesignOutput, SchemaOutpu
             {"role": "user", "content": f"App description: {user_prompt}"}
         ],
         temperature=0.2,
+        max_tokens=4000,
         response_format={"type": "json_object"}
     )
     

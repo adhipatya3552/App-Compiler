@@ -53,6 +53,7 @@ def run(intent: IntentOutput) -> SystemDesignOutput:
             {"role": "user", "content": f"App intent:\n{intent_json}"}
         ],
         temperature=0.2,
+        max_tokens=3000,
         response_format={"type": "json_object"}
     )
 

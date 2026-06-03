@@ -47,6 +47,7 @@ Broken JSON:
             {"role": "user", "content": repair_prompt}
         ],
         temperature=0.0,
+        max_tokens=2000,
         response_format={"type": "json_object"}
     )
 

@@ -78,6 +78,7 @@ def run(intent: IntentOutput, design: SystemDesignOutput) -> SchemaOutput:
             {"role": "user", "content": f"Input:\n{json.dumps(combined, indent=2)}"}
         ],
         temperature=0.2,
+        max_tokens=4000,
         response_format={"type": "json_object"}
     )
 

@@ -1,0 +1,326 @@
+{
+  "fast_mode_results": [
+    {
+      "prompt": "Build a CRM with login, contacts, dashboard, role-based access, and premium plan...",
+      "success": true,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 36012.82,
+      "failure_reason": null,
+      "mode": "fast"
+    },
+    {
+      "prompt": "Create an e-commerce platform with product listings, shopping cart, checkout wit...",
+      "success": true,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 29820.11,
+      "failure_reason": null,
+      "mode": "fast"
+    },
+    {
+      "prompt": "Build a project management tool like Trello with boards, cards, team members, an...",
+      "success": true,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 24089.26,
+      "failure_reason": null,
+      "mode": "fast"
+    },
+    {
+      "prompt": "Create a hospital management system with patient records, doctor schedules, bill...",
+      "success": true,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 42356.52,
+      "failure_reason": null,
+      "mode": "fast"
+    },
+    {
+      "prompt": "Build a learning management system with courses, video lessons, quizzes, certifi...",
+      "success": true,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 30658.18,
+      "failure_reason": null,
+      "mode": "fast"
+    },
+    {
+      "prompt": "Create a food delivery app with restaurants, menus, cart, real-time order tracki...",
+      "success": true,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 41635.21,
+      "failure_reason": null,
+      "mode": "fast"
+    },
+    {
+      "prompt": "Build a SaaS analytics dashboard with multi-tenant support, custom reports, data...",
+      "success": true,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 20825.42,
+      "failure_reason": null,
+      "mode": "fast"
+    },
+    {
+      "prompt": "Create a job board with employer and candidate profiles, job postings, applicati...",
+      "success": true,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 28234.09,
+      "failure_reason": null,
+      "mode": "fast"
+    },
+    {
+      "prompt": "Build an app.",
+      "success": false,
+      "stages_completed": 0,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 501.36,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "fast"
+    },
+    {
+      "prompt": "I want a website for my business.",
+      "success": false,
+      "stages_completed": 0,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 81.86,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "fast"
+    },
+    {
+      "prompt": "Build a free app with premium features but no login required and also admin acce...",
+      "success": false,
+      "stages_completed": 0,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 67.86,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "fast"
+    },
+    {
+      "prompt": "Create a real-time chat app that also works offline without any backend.",
+      "success": false,
+      "stages_completed": 0,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 56.11,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "fast"
+    },
+    {
+      "prompt": "Build something like Netflix but better.",
+      "success": false,
+      "stages_completed": 0,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 68.95,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "fast"
+    },
+    {
+      "prompt": "Create an Uber clone.",
+      "success": false,
+      "stages_completed": 0,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 102.95,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "fast"
+    },
+    {
+      "prompt": "Build an app where all users are admins but only some can see data.",
+      "success": false,
+      "stages_completed": 0,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 68.98,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "fast"
+    },
+    {
+      "prompt": "Create a social media platform.",
+      "success": false,
+      "stages_completed": 0,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 99.92,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "fast"
+    }
+  ],
+  "deep_mode_results": [
+    {
+      "prompt": "Build a CRM with login, contacts, dashboard, role-based access, and premium plan...",
+      "success": true,
+      "stages_completed": 4,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 53748.78,
+      "failure_reason": null,
+      "mode": "deep"
+    },
+    {
+      "prompt": "Create an e-commerce platform with product listings, shopping cart, checkout wit...",
+      "success": true,
+      "stages_completed": 4,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 45708.82,
+      "failure_reason": null,
+      "mode": "deep"
+    },
+    {
+      "prompt": "Build a project management tool like Trello with boards, cards, team members, an...",
+      "success": true,
+      "stages_completed": 4,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 36755.9,
+      "failure_reason": null,
+      "mode": "deep"
+    },
+    {
+      "prompt": "Create a hospital management system with patient records, doctor schedules, bill...",
+      "success": true,
+      "stages_completed": 4,
+      "issues_found": 1,
+      "retries": 0,
+      "latency_ms": 47736.85,
+      "failure_reason": null,
+      "mode": "deep"
+    },
+    {
+      "prompt": "Build a learning management system with courses, video lessons, quizzes, certifi...",
+      "success": true,
+      "stages_completed": 4,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 58976.52,
+      "failure_reason": null,
+      "mode": "deep"
+    },
+    {
+      "prompt": "Create a food delivery app with restaurants, menus, cart, real-time order tracki...",
+      "success": true,
+      "stages_completed": 4,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 55019.46,
+      "failure_reason": null,
+      "mode": "deep"
+    },
+    {
+      "prompt": "Build a SaaS analytics dashboard with multi-tenant support, custom reports, data...",
+      "success": true,
+      "stages_completed": 4,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 30852.93,
+      "failure_reason": null,
+      "mode": "deep"
+    },
+    {
+      "prompt": "Create a job board with employer and candidate profiles, job postings, applicati...",
+      "success": true,
+      "stages_completed": 4,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 46685.72,
+      "failure_reason": null,
+      "mode": "deep"
+    },
+    {
+      "prompt": "Build an app.",
+      "success": false,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 2525.13,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "deep"
+    },
+    {
+      "prompt": "I want a website for my business.",
+      "success": false,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 1857.62,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "deep"
+    },
+    {
+      "prompt": "Build a free app with premium features but no login required and also admin acce...",
+      "success": false,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 1717.49,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "deep"
+    },
+    {
+      "prompt": "Create a real-time chat app that also works offline without any backend.",
+      "success": false,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 1688.72,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "deep"
+    },
+    {
+      "prompt": "Build something like Netflix but better.",
+      "success": false,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 1902.62,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "deep"
+    },
+    {
+      "prompt": "Create an Uber clone.",
+      "success": false,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 2044.21,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "deep"
+    },
+    {
+      "prompt": "Build an app where all users are admins but only some can see data.",
+      "success": false,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 2004.87,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "deep"
+    },
+    {
+      "prompt": "Create a social media platform.",
+      "success": false,
+      "stages_completed": 1,
+      "issues_found": 0,
+      "retries": 0,
+      "latency_ms": 1900.29,
+      "failure_reason": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16136. To increase, visit https://openrouter.ai/",
+      "mode": "deep"
+    }
+  ]
+}

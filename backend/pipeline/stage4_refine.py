@@ -47,6 +47,7 @@ def run(intent: IntentOutput, design: SystemDesignOutput, schema: SchemaOutput) 
             {"role": "user", "content": f"Full app config:\n{json.dumps(combined, indent=2)}"}
         ],
         temperature=0.1,       # very low — we want deterministic fixes
+        max_tokens=4000,
         response_format={"type": "json_object"}
     )
 

@@ -36,6 +36,7 @@ def run(user_prompt: str) -> IntentOutput:
             {"role": "user", "content": f"App description: {user_prompt}"}
         ],
         temperature=0.2,
+        max_tokens=2000,
         response_format={"type": "json_object"}
     )
 
